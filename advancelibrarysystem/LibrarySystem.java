@@ -9,12 +9,12 @@
     import java.awt.event.ActionListener;
     import java.awt.event.MouseAdapter;
     import java.awt.event.MouseEvent;
-	import javax.swing.JButton;
-	import javax.swing.JFrame;
-    import javax.swing.JLabel;
-	import javax.swing.JOptionPane;
-	import javax.swing.JTextField;
-	import javax.swing.SwingConstants;
+    import javax.swing.JButton;
+    import javax.swing.JFrame;
+    import javax.swing.JLabel; 
+    import javax.swing.JOptionPane;
+    import javax.swing.JTextField;
+    import javax.swing.SwingConstants;
 
 
     public class LibrarySystem extends javax.swing.JFrame {
@@ -75,15 +75,15 @@
 		jf.add(lbl_nm);
 		         
    		JLabel ba = new JLabel("Book Author");
-        ba.setBounds(575, 100, 570, 100);
-        ba.setFont(new Font("Times New Roman", Font.BOLD,25));
-        jf.add(ba);
+        	ba.setBounds(575, 100, 570, 100);
+        	ba.setFont(new Font("Times New Roman", Font.BOLD,25));
+        	jf.add(ba);
    		contentPane.add(ba);
    		
    		JLabel a1 = new JLabel("Gary B. Shelly");
    		a1.setBounds(585, 155, 570, 100);
    		a1.setFont(new Font("Times New Roman", Font.BOLD,20));
-        jf.add(a1);
+        	jf.add(a1);
    		contentPane.add(a1);
    		
    		JTextField tfa1 = new JTextField();
@@ -95,7 +95,7 @@
    		JLabel a2 = new JLabel("Corinne Hoisington");
    		a2.setBounds(565, 205, 570, 100);
    		a2.setFont(new Font("Times New Roman", Font.BOLD,20));
-        jf.add(a2);
+		jf.add(a2);
    		contentPane.add(a2);
    		
    		JTextField tfa2 = new JTextField();
@@ -107,7 +107,7 @@
    		JLabel a3 = new JLabel("Rosauro E. Manuel");
    		a3.setBounds(565, 255, 570, 100);
    		a3.setFont(new Font("Times New Roman", Font.BOLD,20));
-        jf.add(a3);
+        	jf.add(a3);
    		contentPane.add(a3);
    		
    		JTextField tfa3 = new JTextField();
@@ -117,9 +117,9 @@
    		jf.add(tfa3);
    		
    		JLabel bn = new JLabel("Book Title");
-        bn.setBounds(250, 100, 570, 100);
-        bn.setFont(new Font("Times New Roman", Font.BOLD,25));
-        jf.add(bn);
+        	bn.setBounds(250, 100, 570, 100);
+        	bn.setFont(new Font("Times New Roman", Font.BOLD,25));
+        	jf.add(bn);
    		contentPane.add(bn);
 
    		bookTitle = new JTextField();
@@ -181,9 +181,9 @@
    		});
 
    		JLabel bc = new JLabel("Copies");
-        bc.setBounds(805, 100, 570, 100);
-        bc.setFont(new Font("Times New Roman", Font.BOLD,25));
-        jf.add(bc);
+        	bc.setBounds(805, 100, 570, 100);
+        	bc.setFont(new Font("Times New Roman", Font.BOLD,25));
+        	jf.add(bc);
    		contentPane.add(bc);
    		
    		nc1 = new JTextField();
